@@ -1,3 +1,4 @@
+# AutoMahn - A more automatic way of manually checking user profiles.
 Just copy the code in the python document and paste it in a new file in IDLE.  \
 Run it \
 Choose platform, then paste the usernames you'd like to check. \
