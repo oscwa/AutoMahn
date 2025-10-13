@@ -7,9 +7,10 @@ import platform
 import shlex
 from openpyxl import Workbook, load_workbook
 from datetime import datetime
+from pathlib import Path
 
-# --- SETTINGS ---
-BASE_DIR = r"C:/AutoMahn/" # This is where the output ends up. Change the filepath if you'd like it elsewhere.
+BASE_DIR = Path.home() / "AutoMahn"
+BASE_DIR.mkdir(parents=True, exist_ok=True)
 if not os.path.exists(BASE_DIR):
     os.makedirs(BASE_DIR)
 
